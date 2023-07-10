@@ -1,0 +1,133 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 15px 20px;
+  min-height: 99%;
+  width: 100%;
+  min-width: 550px;
+  color: #519975;
+  background: #292b34;
+  font-family: cursor, monospace;
+  overflow-x: hidden;
+}
+::selection {
+  color: #1a211e;
+  background-color: #519975;
+}
+::-moz-selection {
+  color: #1a211e;
+  background-color: #bbf9da;
+}
+textarea {
+  left: -1000px;
+  position: absolute;
+}
+b {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* Cursor Start */
+.cursor {
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #ffffff;
+  position: relative;
+  opacity: 1;
+  height: 1.5em;
+  width: 10px;
+  max-width: 10px;
+  transform: translateY(4px);
+  overflow: hidden;
+  text-indent: -5px;
+  display: inline-block;
+  text-decoration: blink;
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+#command {
+  cursor: text;
+  height: 50px;
+  color: #5a91ff;
+}
+#liner {
+  line-height: 1.3em;
+  margin-top: -2px;
+  animation: show 0.5s ease forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+}
+#liner::before {
+  color: #83faa7;
+  content: "(DUO@HilmiOuelhazi):~$";
+  text-shadow: 0 0 4px #3eff3b; 
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Cursor End */
+p {
+  display: block;
+  line-height: 1.3em;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 0.05em;
+  animation: typing 0.5s steps(30, end);
+}
+.no-animation {
+  animation: typing 0 steps(30, end);
+}
+.margin {
+  margin-left: 20px;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.index {
+  color: #ffffff;
+}
+.color2 {
+  color: #ffffff;
+}
+.command {
+  color: #1eff00;
+  
+}
+.error {
+  color: #ff0000;
+}
+.white {
+  color: #fff;
+}
+.inherit,
+a {
+  color: #5a91ff;
+}
+a {
+  text-decoration: inherit;
+}
+a:hover {
+  background: #ffffff;
+  color: #151515;
+}
+a:focus {
+  outline: 0;
+}
