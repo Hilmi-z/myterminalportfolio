@@ -27,10 +27,12 @@ social = [
 ];
 
 projects = [
+
   "<br>",
-  "Still curating... most projects are offline, on GitHub, or confidential.",
+  "1. A simple and intuitive To-Do list application built with React. Stay organized, manage your tasks, and boost your productivity effortlessly. <a href='https://github.com/your-username/todo-list' target='_blank'>View on GitHub</a>",
+  "2. A simple portfolio website made with HTML, CSS, and JS. <a href='https://github.com/your-username/hilmiouelhazi.github.io/' target='_blank'>View on GitHub</a> | <a href='https://hilmi-z.github.io/hilmiouelhazi.github.io/' target='_blank'>Visit Live Site</a>",
   "<br>"
-  ];
+];
 
 
   help = [
