@@ -6,7 +6,7 @@ var github="https://github.com/Hilmi-z/";
 whois = [
 "<br>",
 "Hey I'm Hilmi !!👋"
-, "I'm a second year Network and Information System student at Higher Institute of Technological Studies of Charguia." ,
+, "I'm a Third year Network and Information Services student at Higher Institute of Technological Studies of Charguia." ,
 "I'm a Cybersecurity Enthusiast and a CTF player aiming to build a strong foundation in securing",
  "digital assets and mitigating cyber threats. With a passion for learning and problem-solving,",
  "I continuously strive to stay updated with the latest trends and technologies in the field of cybersecurity.",
